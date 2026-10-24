@@ -10,7 +10,7 @@ public:
         }
         if (s.size() != 1)
             return -1;
-        int x = *s.begin();
-        return x;
+        
+        return *s.begin();
     }
 };
